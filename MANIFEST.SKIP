@@ -1,0 +1,7 @@
+^dist.ini
+^MANIFEST.SKIP
+^Rex-Interface-Shell-Idrac4.*
+^\.gitignore
+^\.git
+^\.build
+tags
