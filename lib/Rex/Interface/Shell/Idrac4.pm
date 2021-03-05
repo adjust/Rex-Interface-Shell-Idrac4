@@ -36,7 +36,7 @@ sub detect {
     } or do {
         return 0;
     };
-    if ( $output && $output =~ m/iDRAC Version/ ) {
+    if ( $output && $output =~ m/iDRAC Version/ms ) {
         return 1;
     }
 
