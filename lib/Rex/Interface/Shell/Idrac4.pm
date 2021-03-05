@@ -33,6 +33,8 @@ sub detect {
     eval {
         ($output) = $con->direct_exec('racadm getversion');
         1;
+    } or do {
+        return 0;
     };
     if ( $output && $output =~ m/iDRAC Version/ ) {
         return 1;
