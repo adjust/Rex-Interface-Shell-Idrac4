@@ -49,3 +49,52 @@ sub exec {
 }
 
 1;
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Rex::Interface::Shell::Idrac4 -- Rex module to support Idrac4
+
+=head1 DESCRIPTION
+
+Rex module to support Idrac4 shell.
+
+=head1 LICENSE
+
+This software is Copyright (c) 2021 by adjust GmbH.
+This is free software, licensed under: The GNU Lesser General Public License, Version 3, June 2007
+
+=head1 SUBROUTINES/METHODS
+
+=over 4
+
+=back
+
+=cut
+
+=head3 new
+
+Initialize a Rex::Interface::Shell::Idrac4 object.
+
+=cut
+
+=head3 detect
+
+Detect an Idrac4 shell.
+
+=over 4
+
+=back
+
+=cut
+
+=head3 exec
+
+Execute a command with the Idrac4 shell.
+
+=cut
+
+
