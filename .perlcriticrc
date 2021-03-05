@@ -1,5 +1,6 @@
-severity = brutal
+severity = harsh
 [-CodeLayout::RequireTidyCode]
+[-Subroutines::ProhibitBuiltinHomonyms]
 
 [Subroutines::ProhibitUnusedPrivateSubroutines]
 private_name_regex = _(?!_)\w+
