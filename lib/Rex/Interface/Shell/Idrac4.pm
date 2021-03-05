@@ -21,7 +21,7 @@ sub new {
     my $proto = ref($class) || $class;
     my $self  = $proto->SUPER::new(@_);
 
-    bless( $self, $class );
+    bless $self, $class;
 
     return $self;
 }
